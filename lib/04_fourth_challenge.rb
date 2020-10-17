@@ -6,9 +6,9 @@ def fourth_challenge
       :hero => {name: "Romeo", age: "15", status: "alive"},
       :hero_friends => [
         {
-        {:name => "Benvolio"}, {:age => "17"}, {:attitide => "worried"}
-        }
-        {:name => "Mercutio"}, {:age => "18"}, {:attitide => "hot-headed"}
+        {:name => "Benvolio", :age => "17", :attitide => "worried"}, 
+        {:name => "Mercutio", :age => "18", :attitide => "hot-headed"}
+      }
       ]
    },
    :capulet => {
@@ -17,7 +17,8 @@ def fourth_challenge
       :heroine => {name: "Juliet", age: "15", status: "alive"},
       :heroine_friends => [
         {
-          {:name => "Steven"}, {:age => "30"}, {:attitide => "worried"}
+          {:name => "Steven", :age => "30", :attitide => "worried"},
+          {:name => "Nurse", :age => "44", :attitide => "worried"} 
         }
       ]
    }
